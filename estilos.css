@@ -1,0 +1,195 @@
+
+    body{
+      background-color: rgb(177, 249, 181);
+    }
+
+    .form-group  {
+      padding-bottom: 10px; 
+    }
+
+    .form-group label {
+      display: block;
+      margin-left: 5px;
+      padding-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .submit-button {
+      padding: 10px 50px;
+      border-radius: 15px;
+      transition: background-color 0.3s ease;
+    }
+
+    .submit-button:hover {
+      background-color: #2563eb;
+      /* Un azul más oscuro al pasar el mouse */
+    }
+    .title {
+      text-align: center;
+      color: #333;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+    }
+    #main-title {
+      font-size: 2.5em;
+      margin-top: 1em;
+      margin-bottom: 0.2em;
+    }
+    
+    .container { background: white; 
+      padding: 30px; 
+      border-radius: 8px; 
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+      width: 100%; 
+      max-width: 400px;
+      margin: 20px auto; 
+
+    }
+
+/*---------------------------------------------------------------- */
+/* MENU PRICNICPAL */
+/*--------------------------------------------------------------- */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* Alinea en fila */
+  justify-content: center; /* Centra horizontalmente */
+  background-color: #eeecec;
+}
+nav ul li {
+  margin: 0 15px;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin-top: 1em;
+}
+p {
+  text-align: center;
+  color: #167c2c;
+  font-family: 'Arial', sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+label {
+  margin-left: 5px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+ol {
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 0;
+}
+li {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+} 
+h2 {
+  text-align: center;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin-top: 1em;
+}
+/*---------------------------------------------------------------- */
+/* Pie de pagina y Encabezado */
+/*--------------------------------------------------------------- */
+footer , header {
+  text-align: center;
+  padding: 20px;
+  background-color: #eeecec;
+  margin-top: 20px;
+}
+/*---------------------------------------------------------------- */
+/* Estilos para la página de login */
+/*--------------------------------------------------------------- */
+.contenedor-login{
+    width:300px;
+    margin:30px auto;
+    padding:20px;
+    background:white;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.contenedor-login input{
+    width:100%;
+    padding:6px;
+    margin-bottom:10px;
+}
+.container-asignacion {
+  background: rgb(254, 250, 250); 
+  padding: 30px; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+  width: 100%; 
+  max-width: 600px;
+  margin: 20px auto; 
+  justify-content: center;
+}
+
+.submit-button-login {
+  padding: 10px 50px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+  color: rgb(255, 255, 255);
+  background-color: rgb(56, 56, 254);
+
+}
+/*--------------------------------------------------------------- */
+/* Estilos para la página de tareas */
+/* -------------------------------------------------------------- */
+.container-tareas {
+  background: rgb(254, 250, 250); 
+  padding: 30px; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+  width: 100%; 
+  max-width: 800px;
+  margin: 20px auto; 
+  text-align: center; 
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: #333;
+  border-top: #2563eb;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #1e3dd1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+/*-----------------------------------------------------------------*/
+
+
+
+
+
+
